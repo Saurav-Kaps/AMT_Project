@@ -1,0 +1,27 @@
+.container1{
+    /*border:1px solid red;*/
+    background-color:#6495ED;
+    display: flex;
+    width:100%;
+    height:80px;
+}
+ .logo{
+    width:250px;
+    margin-top: 10px;
+    margin-left:30px;
+    height:60px;
+    border-radius:30px;
+    
+}
+p{
+    color:white;
+    margin-left:440px;
+    margin-top:30px;
+    align-content: center;
+    font-weight: bold;
+    font-size:30px;
+}
+.container2{
+    display: flex;
+
+}

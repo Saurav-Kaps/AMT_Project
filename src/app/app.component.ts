@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Employee_Portal';
+  Logo = './assets/Logo.png';
+  Homepage = './assets/Home page.png';
 }
