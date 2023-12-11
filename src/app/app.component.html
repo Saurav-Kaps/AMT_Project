@@ -1,56 +1,42 @@
-<div class="container1">
-    <img class="logo" 
-    [src]="Logo" >
-    <p>Employee Portal</p>
-    <mat-icon 
-    style="margin-left:370px; 
-    margin-top: 30Px; 
-    color:whitesmoke; 
-    font-size:xx-large; 
-    font-weight:lighter;">login</mat-icon>
-    <mat-icon 
-    style="margin-left:30px; 
-    margin-top: 30px; 
-    color:whitesmoke; 
-    font-size:xx-large; 
-    font-weight:lighter;">help_outline</mat-icon>
+<div class="flex-container">
+    <div>
+        <img [src]="Logo" style="width:220px; margin-top:1px; margin-right: 50px;">
     </div>
-    <div class="container2">
-    <div class="content-1">
-        <img 
-        class="home" 
-        [src] ="Homepage"
-        style=
-        "width:66vw; 
-        height:90vh;
-        margin-top: 0.9px;">
+    <div>
+        <h1 style="width:200px;margin-right:50px;margin-top:15px; color:white;font-weight: 600;">{{heading}}</h1>
+    </div>
+    <div class="logos">
+        <mat-icon style="color:white;font-weight: 600; margin-top:20px; margin-left: 20px;">login</mat-icon>
+        <mat-icon style="color:white;font-weight: 600;margin-top: 20px;  margin-left: 30px;">help_outline</mat-icon>
+    </div>
+</div>
+<div class="flex-container1">
+    <div class="section1" style="height:91vh">
+        <div>
+            <img [src]="Homepage" style="width:70vw; height:90.5vh">
         </div>
-        <div class= "content-2">
-        <h4 style=
-        "margin-left: 200px; 
-        margin-top:240Px;
-        font-weight:500; 
-        font-size:x-large; 
-        margin-bottom: 50px;">Sign In</h4>
-        <button mat-button 
-        style=
-        "margin-left:120px;
-        border-radius:16px; 
-        background-color:#1260CC; 
-        color:whitesmoke; 
-        width:250px;
-        box-shadow:0px 3px 0px 0px #29C5F6;
-        font-size: 30px"
-        >Employee</button>
-        <br>  <br>  <br>
-        <button mat-button 
-        style=
-        "margin-left:120px;
-         border-radius:16px;
-         background-color: whitesmoke;
-         color:blue;
-         border:2px solid #1260CC;
-         width:250px"
-        >Admin</button>
     </div>
+    <div class="section2" style="width:30vw;">
+        <div>
+            <h3 class="item1" style="font-weight: bold; font-size: large;">Sign-On</h3>
+        </div>
+        <div>
+            <button mat-button class="item1" style="background: rgb(0, 117, 169);
+                color: rgb(255, 255, 255);
+                font-weight:400;
+                font-size: large;
+                border: 1px solid rgb(255, 255, 255);
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                border-radius: 25px; width:150px" (click)="openLoginDialog('Employee')">Employee </button>
+        </div>
+        <br>
+        <div>
+            <button mat-button class="item1" style="color: rgb(103, 140, 222);background-color: rgb(255, 255, 255);
+                border: 1px solid rgb(103, 140, 222);
+                font-weight:400;
+                font-size: large;
+                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+                border-radius: 25px; width:150px"(click)="openLoginDialog('Admin')">Admin</button>
+</div>
+        </div>
     </div>
