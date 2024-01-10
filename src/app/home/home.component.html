@@ -1,0 +1,22 @@
+<app-navbar></app-navbar>
+
+<div class="flex-container1">
+    <div class="section1" style="height:91vh">
+        <div>
+            <img [src]="Homepage" style="width:70vw;
+             height:90.5vh">
+        </div>
+    </div>
+    <div class="section2" style="width:30vw;">
+        <div>
+            <h3 class="item1">Sign-On</h3>
+        </div>
+        <div>
+            <button mat-button class="item2" (click)="openLoginDialog('Employee')">Employee </button>
+        </div>
+        <br>
+        <div>
+            <button mat-button class="item3"(click)="openLoginDialog('Admin')">Admin</button>
+        </div>
+    </div>
+</div>

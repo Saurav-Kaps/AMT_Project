@@ -1,0 +1,42 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.flex-container1 {
+  text-align: center;
+  display: flex;
+  margin-top: 3px;
+}
+
+.section2 {
+  margin-left: 30px;
+  margin: auto;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: large;
+}
+
+ .item2 {
+  background: rgb(0, 117, 169);
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: large;
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  width: 150px
+}
+
+.item3 {
+  color: rgb(103, 140, 222);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(103, 140, 222);
+  font-weight: 400;
+  font-size: large;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  width: 150px
+}

@@ -1,0 +1,17 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  height: 99.7vh;
+}
+
+.flex-container > div {
+  align-self: center;
+  text-align: center;
+  color:red;
+  font-size: large;
+  font-weight: bold;
+}
+img{
+  height:300px;
+  width:450pxpx;
+}

@@ -1,0 +1,38 @@
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(103, 140, 222);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+.flex-container>div {
+  width: 100px;
+  height: 60px;
+  text-align: center;
+  line-height: 1px;
+  font-size: 30px;
+}
+
+h1 {
+  width: 200px;
+  margin-right: 50px;
+  margin-top: 15px;
+  color: white;
+  font-weight: 600;
+}
+
+.login {
+  color: white;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+
+.help_outline {
+  color: white;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 30px;
+
+}

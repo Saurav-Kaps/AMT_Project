@@ -1,0 +1,36 @@
+<app-navbar></app-navbar>
+
+<div class="body">
+    <div class="flex-container-1">
+        <img [src]="OfficeLogo">
+    </div>
+    <div class="flex-container-2">
+        <div class="flex-container-3">
+
+            <a style="display: block;
+         text-align: center; 
+         margin-top:150px;
+         cursor: pointer;">
+                <hr>Leaves
+            </a>
+            <hr>
+            <a style="display: block; 
+        text-align: center;
+         margin-top: 5px; 
+         cursor: pointer;">Profile</a>
+            <hr>
+
+        </div>
+        <div class="flex-container-4">
+            <ag-grid-angular style="text-align:center;
+        margin-left:50px;
+        border:0.1px solid;
+        width:40vw;
+        margin-top:50px;
+        height:35vh;
+        box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);" [class]="themeClass" [rowData]="rowData"
+                [columnDefs]="colDefs"></ag-grid-angular>
+            <button>Apply Leave</button>
+        </div>
+    </div>
+</div>
